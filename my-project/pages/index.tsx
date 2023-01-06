@@ -40,6 +40,28 @@ export default function Home({
       <Header />
       <main>
         <Banner netflixOriginals={netflixOriginals} />
+        <p>te</p>
+        <p>te</p>
+        <p>te</p>
+        <p>te</p>
+        <p>te</p>
+        <p>te</p>
+        <p>te</p>
+        <p>te</p>
+        <p>te</p>
+        <p>te</p>
+        <p>te</p>
+        <p>te</p>
+        <p>te</p>
+        <p>te</p>
+        <p>te</p>
+        <p>te</p>
+        <p>te</p>
+        <p>te</p>
+        <p>te</p>
+        <p>te</p>
+        <p>te</p>
+        <p>te</p>
         <section>
           {/* Row */}
           {/* Row */}
