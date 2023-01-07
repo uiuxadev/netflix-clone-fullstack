@@ -31,11 +31,7 @@ const Banner = ({ netflixOriginals }: Props) => {
           // add "?" for null case
           // set 2 options as an alternative
           src={`${baseUrl}${movie?.backdrop_path || movie?.poster_path}`}
-          style={{
-            // maxWidth: "100%",
-            // height: "100%",
-            objectFit: "cover",
-          }}
+          className="object-cover"
         />
       </div>
 
