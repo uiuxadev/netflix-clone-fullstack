@@ -28,7 +28,7 @@ const Header = () => {
     // <header className={`${isScrolled && "bg-[#e72e2e]"}`}>
     // <header className="bg-[#e72e2e]">
     <header
-      className={`${isScrolled && "bg-[#141414] transition duration-200 "}`}
+      className={`${isScrolled && "bg-[#141414] transition duration-300 "}`}
     >
       <div className="flex items-center space-x-2 md:space-x-10">
         <picture>
