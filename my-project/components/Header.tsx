@@ -18,6 +18,7 @@ const Header = () => {
 
     window.addEventListener("scroll", handleScroll);
 
+    // clean up
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
@@ -25,7 +26,10 @@ const Header = () => {
 
   return (
     // <header className={`${isScrolled && "bg-[#e72e2e]"}`}>
-    <header className={`${isScrolled && "bg-[#141414]"}`}>
+    // <header className="bg-[#e72e2e]">
+    <header
+      className={`${isScrolled && "bg-[#141414] transition duration-200 "}`}
+    >
       <div className="flex items-center space-x-2 md:space-x-10">
         <picture>
           <img
@@ -44,21 +48,21 @@ const Header = () => {
           <li className="headerLink">New & Popular</li>
           <li className="headerLink">My List</li>
         </ul>
+      </div>
 
-        <div className="flex items-center space-x-4 text-sm font-light">
-          <SearchIcon className="sm hidden h-6 w-6 sm:inline" />
-          <p className="hidden lg:inline">Kids</p>
-          <BellIcon className="h-6 w-6" />
-          <Link href="/account">
-            <picture>
-              <img
-                src="https://rb.gy/g1pwyx"
-                alt=""
-                className="cursor-pointer rounded"
-              />
-            </picture>
-          </Link>
-        </div>
+      <div className="flex items-center space-x-4 text-sm font-light">
+        <SearchIcon className="sm hidden h-6 w-6 sm:inline" />
+        <p className="hidden lg:inline">Kids</p>
+        <BellIcon className="h-6 w-6" />
+        <Link href="/account">
+          <picture>
+            <img
+              src="https://rb.gy/g1pwyx"
+              alt=""
+              className="cursor-pointer rounded"
+            />
+          </picture>
+        </Link>
       </div>
     </header>
   );

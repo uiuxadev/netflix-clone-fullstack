@@ -23,7 +23,7 @@
     @apply flex items-center gap-x-2 rounded px-5 py-1.5 text-sm font-semibold transition hover:opacity-75 md:py-2.5 md:px-8 md:text-xl;
   }
 }
-
+/* 
 :root {
   --max-width: 1100px;
   --border-radius: 12px;
@@ -130,4 +130,4 @@ a {
   html {
     color-scheme: dark;
   }
-}
+} */
